@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Page</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-log" id="chatLog">
+            <div class="chat-bot">V.I.I.D.A.：ようこそ、何か質問があればどうぞ。</div>
+        </div>
+        <div class="user-input">
+            <input type="text" id="userInput" placeholder="メッセージを入力してください">
+            <button onclick="sendMessage()">送信</button>
+        </div>
+        <button id="micButton" class="mic-button">🎤 マイクで話す</button>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
