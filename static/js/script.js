@@ -66,7 +66,7 @@ micButton.addEventListener('click', () => {
 });
 
 // chatGPT
-const API_KEY = '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';
+const API_KEY = 'xxx';
 const URL = "https://api.openai.com/v1/chat/completions";
 
 function reply(messageDiv) {
